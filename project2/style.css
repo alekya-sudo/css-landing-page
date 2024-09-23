@@ -1,0 +1,118 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+.hero-section{
+    background-image:url(/project2/hotel.jpg);
+    background-blend-mode:overlay;
+    background-color:rbg(0,0,0,0.5);
+    background-size: cover;
+    height:100vh;
+    position:relative;
+    
+}
+.hero-text{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%) ;
+
+}
+.know-button,
+.book-button{
+    background-color:aqua;
+    font-size:18px;
+    border:none;
+    border-radius:30px;
+    padding:10px 20px;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+.hero-section{
+    text-align:center;
+    margin-bottom: 20px;
+}
+.about-section{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-heading,
+.Know-more-container
+.room-heading
+.form-heading{
+    text-align: center;
+}
+
+.about-us{
+    width:50%;
+}
+ul li{
+    list-style: none;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+
+
+.room-type-container{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: row-reverse;
+       padding:0px 20px;
+       margin-top: 20px;
+}
+.room-list h4{
+
+    font-size: 20px;
+}
+.room-images img{
+        width: 500px;
+        height: 400px;
+
+}
+.about-section > h1{
+   
+    text-decoration:underline;
+
+}
+.help-button{
+    background-color:brown;
+    width:fit-content;
+    padding:5px 15px;
+    border-radius: 10px;
+    position: fixed;
+    bottom:20px;
+    right:0;
+}
+.help-button h4{
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+form{
+    border:2px solid grey;
+    width:max-content;
+    padding:20px;
+    border-radius: 20px;
+     margin:30px 0px;
+}
+.formm-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-size:20px;
+}
+input,
+select{
+    padding: 5px;
+    font-size: 15px;
+}
+
